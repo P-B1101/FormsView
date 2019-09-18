@@ -21,7 +21,7 @@ create your typeface like this
 Typeface bold = Typeface.createFromAsset(getAssets(), "bold.ttf");
 Typeface normal = Typeface.createFromAsset(getAssets(), "normal.ttf");
 ```
-and then pass them to the Builder in Application oncreate method
+and then pass them to the Builder in Application onCreate method
 ```
 new FormsViewUtils.Builder(this)
                 .setBold(bold)
@@ -36,4 +36,5 @@ now you can use textview and button and edittext like this
         android:text="این یک تست است"
         app:isBold="true" // for normal text use false or not set at all/>
 ```
+PS: there is a default font in this library that you can use.
 congratulations :)
