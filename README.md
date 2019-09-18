@@ -28,5 +28,12 @@ new FormsViewUtils.Builder(this)
                 .setNormal(normal)
                 .build();
 ```
-
+now you can use textview and button and edittext like this
+```
+<m.pedram.formview.textview.FormsTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="این یک تست است"
+        app:isBold="true" // for normal text use false or not set at all/>
+```
 congratulations :)
